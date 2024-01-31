@@ -14,6 +14,7 @@ import java.text.DecimalFormat;
 
 class Lab2 {
     public static void main(String[] args) {
+        long prize = 225938745L;
         Scanner input = new Scanner(System.in);
         Random rand = new Random();
 
@@ -44,7 +45,8 @@ class Lab2 {
         System.out.println("-----------------");
         System.out.println("Good luck " + customerName + "!");
         System.out.println("Estimated Jackpot:");
-        System.out.println("$225,938,745");
+        DecimalFormat mf = new DecimalFormat("000,000,000");
+        System.out.println("$" + mf.format(prize));
         System.out.println("-----------------");
 
     }
