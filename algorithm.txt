@@ -1,3 +1,11 @@
 print out description of the program
 ask for the player's name
 ...
+
+Ask for player's name
+Set string name variable = to player's name input stripped
+Variable n will be set equal to 10
+While n is greater than 0,
+    Generate and print 5 random numbers 0-99
+    n--
+Print good luck message with player's name and potential winning prize
