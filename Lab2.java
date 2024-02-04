@@ -1,12 +1,12 @@
-// Programmers:  [your names here]
+// Programmers:  [Gbemiro Omokayode and Carah Katz ]
 // Course:  CS 212
-// Due Date:
-// Lab Assignment:
-// Problem Statement:
-// Data In:
-// Data Out:
-// Credits: [Is your code based on an example in the book, in class, or something else?
-//            Reminder: you should never take code from the Internet or another person
+// Due Date: 02/04/2024
+// Lab Assignment: Lab 2 
+// Problem Statement: The task is to write a Java program for the quick play function from the lottery vending machiene. 
+// Data In: Prompt user to input their name and how much they want to pay. 
+// Data Out: Output 10 random lottery tickets for the user. The total winnings of the user. 
+// Credits: [N/A] 
+//         
 
 import java.util.Scanner;
 import java.util.Random;
